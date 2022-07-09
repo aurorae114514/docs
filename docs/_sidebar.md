@@ -1,0 +1,9 @@
+* 序章
+	* [首页](/)
+* 指南
+	* [快速开始](/gstart)
+	* [官网](/gOfficial)
+	* [皮肤站](/gskins)
+	* [MC服](/gMinecraft)
+	* [网盘](gCloudDrive)
+* [隐私政策](/隐私政策)
