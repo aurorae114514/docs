@@ -1,3 +1,9 @@
-* [首页](/)
-* [指南](/guide/)
+* 序章
+	* [首页](/)
+* 指南
+	* [快速开始](/gstart)
+	* [官网](/guide/Official)
+	* [皮肤站](/guide/skins)
+	* [MC服](/guide/Minecraft)
+	* [网盘](CloudDrive)
 * [隐私政策](/隐私政策)

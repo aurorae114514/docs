@@ -13,23 +13,37 @@
   <div id="app">加载中。。。</div>
 
   <!-- Docsify v4 -->
-  
-  <!-- Sidebar -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
   <script>
 	window.$docsify = {
 	name: 'Aurora Docs',
-	repo: 'ACG-j/docs',
+	repo: 'aurorae114514/docs',
 	loadSidebar: true,
-	subMaxLevel: 2,
+	subMaxLevel: 4,
 	alias: {
 	'/.*/_sidebar.md': '/_sidebar.md'
 	},
-	loadNavbar: true
+	loadNavbar: true,
+	coverpage: true
 }
 </script>
+
 	<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-	
+
+	<!-- require APlayer -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+	<!-- require MetingJS -->
+	<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+	<meting-js
+	server="netease"
+	type="playlist"
+	id="6816782629"
+	fixed="true"
+	>
+	</meting-js>
 
 	</script>
 	<!-- plugins -->
