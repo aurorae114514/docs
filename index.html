@@ -25,8 +25,44 @@
 	'/.*/_sidebar.md': '/_sidebar.md'
 	},
 	loadNavbar: true,
-	coverpage: true
+	coverpage: true,
+
+	plugins: [
+    function(hook, vm) {
+      hook.beforeEach(function(html) {
+        var url =
+          'https://github.com/aurorae114514/docs/tree/master/' +
+          vm.route.file;
+        var editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n';
+
+        return (
+          editHtml +
+          html +
+          '\n----\n' +
+          'Last modified {docsify-updated} ' +
+          editHtml
+        );
+      });
+    }
+  ]
+
 }
+</script>
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '6076f0a6da12d6f09878',
+    clientSecret: '32db0bf2a2ea61caec349a494dbc41c5cffc20a8',
+    repo: 'docs',
+    owner: 'aurorae114514',
+    admin: ['aurorae114514'],
+    // facebook-like distraction free mode
+    distractionFreeMode: false
+  })
 </script>
 
 	<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
