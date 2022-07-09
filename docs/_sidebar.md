@@ -3,7 +3,7 @@
 * 指南
 	* [快速开始](/gstart)
 	* [官网](/gOfficial)
-	* [皮肤站](/gskins)
+	* [皮肤站](/gSkins)
 	* [MC服](/gMinecraft)
 	* [网盘](gCloudDrive)
 * [隐私政策](/隐私政策)
